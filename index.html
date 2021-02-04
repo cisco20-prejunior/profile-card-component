@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="main.css" />
+
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Profile card component</title>
+    </head>
+    <body>
+        <svg
+            class="circle circle__top"
+            width="978"
+            height="978"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <defs>
+                <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+                    <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+                    <stop stop-color="#53FFEE" offset="99.94%" />
+                </linearGradient>
+            </defs>
+            <ellipse
+                fill="url(#a)"
+                transform="rotate(-135 489 489)"
+                cx="489"
+                cy="489"
+                rx="489"
+                ry="488"
+                fill-rule="evenodd"
+                opacity=".5"
+            />
+        </svg>
+        <div class="container">
+            <div class="card">
+                <img src="images/bg-pattern-card.svg" class="card__portada" />
+                <div class="card__info">
+                    <img
+                        class="card__picture"
+                        src="images/image-victor.jpg"
+                        alt="perfil-image"
+                    />
+                    <span>
+                        <span class="info__name"> Victor Crest </span>
+                        <span class="info__years"> 26 </span>
+                    </span>
+                    <span class="info__location"> London </span>
+                </div>
+                <div class="card__stats">
+                    <span class="stats">
+                        <span class="stats__number"> 80K </span>
+                        <br />
+                        <span class="stats__text"> Followers </span>
+                    </span>
+                    <span class="stats">
+                        <span class="stats__number"> 803K </span>
+                        <br />
+                        <span class="stats__text"> Likes </span>
+                    </span>
+                    <span class="stats">
+                        <span class="stats__number"> 1.4K </span>
+                        <br />
+                        <span class="stats__text"> Photos </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <svg
+            class="circle circle__bottom"
+            width="978"
+            height="978"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <defs>
+                <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+                    <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+                    <stop stop-color="#53FFEE" offset="99.94%" />
+                </linearGradient>
+            </defs>
+            <ellipse
+                fill="url(#a)"
+                transform="scale(1 -1) rotate(45 1669.55 0)"
+                cx="489"
+                cy="489"
+                rx="489"
+                ry="488"
+                fill-rule="evenodd"
+                opacity=".25"
+            />
+        </svg>
+    </body>
+</html>
